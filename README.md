@@ -7,9 +7,11 @@
 Before exposing the service, there were only 2 logs stating which servers had been established (a TCP server in port 8080 and a UDP server on port 8081). When I expose the service, it instantly opens up my browser to access the end point, after which if I check the logs I see a GET request being received with the URI of just '/'. From there whenever I reloaded the page or accessed the endpoint again, it would log a GET request for each visit. Thus I can conclude that the logs tell me whenever there is an event, which includes requests to the service and the logs do increase every time I open the app.
 
 **initial logs**
+
 ![image](https://github.com/Sirered/adprog-tutorial11/assets/126568984/dcc1f223-dce7-4cec-bcd5-3d0a2e9d8d23)
 
 **after exposing**
+
 ![image](https://github.com/Sirered/adprog-tutorial11/assets/126568984/6f05f123-e459-4652-9574-e5ec0a782634)
 
 **accessing app multiiple times**
