@@ -35,3 +35,6 @@ To utilise the Recreate strategy I just took the deployment.yaml used previously
 **What do you think are the benefits of using Kubernetes manifest files?**
 
 The use of manifest files allows us for better efficiency, scalability and maintainability when deploying our projects. It is efficient, because as opposed to having to manually write all of the commands to deploy and expose the service with all of the necessary options set is more time consuming than just writing kubectl apply -f <manifest file>'. It allows for maintainability due to the fact that as long as you don't haphazardly edit the manifest files, all of the settings you set for the initial service will remain the same. This means that there is no chance for you to accidentally set an option incorrectly that may take a while to identify. Lastly, it allows for scalability since the yaml file itself is clear documentation of the settings of the deployment, as well as being easily configurable. Overall, it's simpler and less time consuming to just use a manifest file than having to type out all of the commands while ensuring that there are no errors.
+
+**Deployment for group aspect**
+https://tart-bass-sirered-2a271606.koyeb.app/
